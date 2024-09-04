@@ -1,0 +1,159 @@
+@font-face {
+    font-family: royal;
+    src: url(Fonts/blackchancery.regular.ttf);
+  }
+@font-face {
+    font-family: qoute;
+    src: url(Fonts/MagentaRose.ttf);
+  }
+  @font-face {
+    font-family: qoute2;
+    src: url(Fonts/Robecha.Daniera-Regular.ttf);
+  }
+html, body {
+    margin:0px;
+    background-color: #E85C0D;
+    scroll-behavior: smooth;
+  }
+.header li{
+    list-style: none;
+    display:inline;
+}
+.header li p {
+    display: inline;
+}
+.header{
+    z-index: 9;
+    overflow: hidden;
+    background-color: #E85C0D;
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+    color: aliceblue;
+    font-family: royal;
+    padding: 10px 0px 10px 0px;
+    position:sticky;
+    top: 0;
+}
+.header a {
+    padding: 15px;
+    text-decoration: none;
+    color:aliceblue;
+}
+.header li:hover{
+    font-size: 75%;
+    color: antiquewhite;
+    transition-duration: 1s;
+}
+.Defination{
+    background-color: #C7253E;
+    width: 100%;
+    padding-bottom: 25px;
+}
+.Defination center p{
+    font-size: 70px;
+    color: antiquewhite;
+}
+.Defination center dd {
+    font-size: 40px;
+    color: antiquewhite;
+    font-family:qoute;
+}
+
+.Defination center dt{
+    font-size: 40px;
+    color: antiquewhite;
+    font-family:qoute2;
+}
+.Members{
+    padding-top: 25px;
+    background-color: #FABC3F;
+    height: fit-content;
+}
+.Members .stroke img,.Members .mazen img{
+    border: double;
+    border-color: #821131;
+    border-radius: 45% 10% 10% 10%;
+    border-width: 20px;
+}
+.Members .golde img,.Members .farid img{
+    border: double;
+    border-color: #821131;
+    border-radius: 10% 45% 10% 10%;
+    border-width: 20px;
+}
+.Members center p{
+    font-size: 60px;
+    font-family: royal;
+    color:antiquewhite;
+    border: solid #821131;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom-width: 25px;
+}
+.Members center li{
+    font-size: 40px;
+    color:antiquewhite;
+    list-style: none;
+}
+.stroke{
+    width: 100%;
+    display: inline-flex;
+}
+.farid{
+    width: 100%;
+    display: inline-flex;
+}
+.mazen{
+    width: 100%;
+    display: inline-flex;
+}
+.golde{
+    width: 100%;
+    display: inline-flex;
+}
+.data {
+    margin: auto;
+}
+.rocket{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.rocket img{
+    width: 60%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 13%;
+    border:groove;
+    border-color: #821131;
+    border-width: 10px;
+}
+.rocket center{
+    font-size: 60px;
+    color: antiquewhite;
+    font-family: royal;
+}
+.rocket li{
+    font-size: 40px;
+    color:antiquewhite;
+    list-style: none;
+    text-align: center;
+}
+.join{
+    padding-top: 25px;
+    background-color: #FABC3F;
+}
+.join center{
+    font-size: 60px;
+    color: antiquewhite;
+    font-family: royal;
+}
+.join p{
+    font-size: 40px;
+    color:antiquewhite;
+    text-align: center;
+}
