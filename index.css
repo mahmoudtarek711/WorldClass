@@ -35,6 +35,9 @@ html, body {
     position:sticky;
     top: 0;
 }
+.header > i{
+  font-size:60px;
+}
 .header a {
     padding: 15px;
     text-decoration: none;
@@ -65,10 +68,17 @@ html, body {
     color: antiquewhite;
     font-family:qoute2;
 }
+
+.Defination > i{
+  font-size: 150px;
+}
 .Members{
     padding-top: 25px;
     background-color: #FABC3F;
     height: fit-content;
+}
+.pic {
+  width: 40%;
 }
 .Members .stroke img,.Members .mazen img{
     border: double;
@@ -116,6 +126,10 @@ html, body {
 .data {
     margin: auto;
 }
+.data i{
+  padding-right: 10px;
+  color:gold;
+}
 .rocket{
     margin-top: 45px;
     margin-bottom: 45px;
@@ -156,4 +170,72 @@ html, body {
     font-size: 40px;
     color:antiquewhite;
     text-align: center;
+}
+@media screen and (max-width:600px) {
+  .stroke , .farid , .golde ,.mazen{
+    display: block;
+  }
+  .farid , .golde{
+     display: flex;
+     flex-direction: column;
+    }
+  .pic { order: 0; }
+  .data { order: 1; }
+
+  .header li ,.header span{
+    font-size: 20px;
+  }
+  .header > i{
+    font-size:30px;
+  }
+  .Defination{
+      padding-bottom: 12px;
+  }
+  .Defination center p{
+      font-size: 35px;
+  }
+  .Defination center dd {
+      font-size: 20px;
+  }
+
+  .Defination center dt{
+      font-size: 20px;
+  }
+  .Defination center > i{
+    font-size: 75px;
+    padding-top: 12px;
+  }
+  .pic{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pic img{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .data i{
+
+  }
+  .Members center p{
+      font-size: 45px;
+      border-bottom-width: 12px;
+  }
+  .Members center li{
+      font-size: 20px;
+
+  }
+  .rocket center{
+    font-size: 30px;
+  }
+  .rocket li{
+    font-size: 20px;
+  }
+  .join center{
+    font-size: 30px;
+  }
+  .join p{
+    font-size: 20px;
+  }
 }
